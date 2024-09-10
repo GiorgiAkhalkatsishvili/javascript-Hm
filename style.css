@@ -1,0 +1,20 @@
+
+*{
+  padding: 0;
+}
+
+ul{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid #fff;
+  color: #fff;
+  justify-content: center;
+  background-color: #2f8ac9;
+}
