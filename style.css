@@ -1,20 +1,96 @@
-
 *{
+  margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-ul{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-}
-
-li{
-  list-style-type: none;
+.tabsContainer{
   display: flex;
-  gap: 5px;
-  align-items: center;
-  border: 1px solid #fff;
-  color: #fff;
   justify-content: center;
-  background-color: #2f8ac9;
 }
+
+.inner{
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.tabs{
+  border-bottom: 1px solid #000;
+  min-width: 400px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+ .first-text ul{
+  display: flex;
+  gap: 110px;
+  font-weight: 600;
+}
+
+ul li{
+  list-style: none;
+}
+
+.texts .second-texts{
+  display: flex;
+  gap: 157px;
+  color: #5c5e62;
+  font-weight: 500;
+}
+
+.second-texts ul{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+
+.border-tab{
+  border-bottom: solid 4px #000;
+}
+
+.texts2 .first-text ul {
+   display: flex;
+   gap: 150px;
+   font-weight: 600;
+   font-size: 17px;
+ }
+
+.texts2{
+  display: none;
+  margin-left: 75px;
+}
+
+.texts2 .first-text{
+  display: flex;
+    gap: 157px;
+}
+
+.second-heading{
+margin-left: 90px;
+}
+
+.third{
+  margin-left: 70px;
+}
+
+.texts2 .second-texts {
+display: flex;
+gap: 100px;
+   color: #5c5e62;
+   font-weight: 500;
+ }
